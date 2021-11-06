@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1983.002" height="1123.582" viewBox="0 0 1983.002 1123.582">
+  <g id="Grupo_2010" data-name="Grupo 2010" transform="translate(58.504 119.654)">
+    <g id="Grupo_2009" data-name="Grupo 2009">
+      <circle id="Elipse_13" data-name="Elipse 13" cx="47.5" cy="47.5" r="47.5" transform="translate(779 597)" fill="#27debf" opacity="0.06"/>
+      <g id="Grupo_2008" data-name="Grupo 2008">
+        <path id="Trazado_1416" data-name="Trazado 1416" d="M435.746,175.611c-.83,81.516,27.414,78.656,87.414,97.179,77.827,24.021,85.858,285.478-22.6,299.481-56.71,7.32-70.565-69.854-115.806-15.559-54.828,65.794-135.589,39.862-130.284-36.942,2.593-37.58,13.589-73.974-31.608-75.589-80.627-2.875-99.21-117.407,10-152.867,85.577-27.785,54.339-80.909,47.049-124.846C262.133,59.4,436.991,53.847,435.746,175.611Z" transform="translate(-214.639 175.65)" fill="none" stroke="#27debf" stroke-miterlimit="10" stroke-width="1" opacity="0.5"/>
+        <circle id="Elipse_12" data-name="Elipse 12" cx="47.5" cy="47.5" r="47.5" transform="translate(181 686)" fill="#27debf" opacity="0.22"/>
+        <path id="Trazado_1415" data-name="Trazado 1415" d="M715.259,161.23c16.093,79.916,34.527,125.661,94.542,144.184,77.827,24.021,78.6,171.924-29.859,185.927-56.71,7.32-95.3-6.4-126.283,32.052-55.258,68.595-97.55,16.76-105.4-15.011C519.21,390.916,450.7,422.776,399.2,357.9c-30.333-38.187-.667-81.872,55.777-92.037,86.2-15.515,106.456-65.794,113.346-89.918C584.96,117.708,699.166,81.3,715.259,161.23Z" transform="translate(455.319 234.812)" fill="none" stroke="#27debf" stroke-miterlimit="10" stroke-width="1" opacity="0.5"/>
+        <g id="Elipse_14" data-name="Elipse 14" transform="translate(572 766)" fill="none" stroke="#27debf" stroke-width="9" opacity="0.22">
+          <circle cx="21.5" cy="21.5" r="21.5" stroke="none"/>
+          <circle cx="21.5" cy="21.5" r="17" fill="none"/>
+        </g>
+        <g id="Elipse_16" data-name="Elipse 16" transform="translate(562 315)" fill="none" stroke="#27debf" stroke-width="9" opacity="0.22">
+          <circle cx="21.5" cy="21.5" r="21.5" stroke="none"/>
+          <circle cx="21.5" cy="21.5" r="17" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Trazado_1417" data-name="Trazado 1417" d="M72.806,96.124C236.731-93.734,221.219-40.15,443.692,13.409S708.615,117.291,679.776,253.247s-164.794,140.075,0,308.989C827.925,714.088,1135.9,845.963,873.675,987.6c-2.592,3.678-854.7-96.731-855.074-99.5A268.368,268.368,0,0,1,0,788.828C0,541.637-91.119,285.981,72.806,96.124Z" transform="matrix(-0.995, 0.105, -0.105, -0.995, 1895.531, 865.276)" fill="#b4299a" opacity="0.047"/>
+  </g>
+</svg>
