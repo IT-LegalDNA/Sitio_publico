@@ -16,11 +16,20 @@ $register = false;
     ?>
     <div class="container" >
       <div class="mdBnr srvcs">
-        <div class="lmts">  
-          <div class="caption">
-            <h1>Soluciones LegalTech para Personas y Empresas</h1>
-            <p class="intro">Brinda  Agilidad y mayor certeza Jurídica a tu Empresa.</p>
-            <a class="btn" href="registro.php">CREAR CUENTA</a>
+        <div class="lmts">
+          <div class="flex-container">
+            <div class="caption-hero">
+              <h1>Soluciones Legaltech para tu Empresa o Negocio</h1>
+              <p class="intro">Brinda Agilidad y mayor certeza Jur&iacute;dica a tu Empresa</p>
+              <a class="btn" href="registro.php">CREAR CUENTA</a>
+            </div>
+            <div class="caption-anima flex-item">
+              <video width="100%" height="100%" autoplay="" loop="">
+                <source src="./media/gente.mp4"  type="video/mp4">
+                <source src="./media/gente.ogg"  type="video/ogg">
+                <source src="./media/gente.webm"  type="video/webm">
+              </video>
+            </div>
           </div>
         </div>
       </div>
@@ -30,46 +39,33 @@ $register = false;
         </div>
       </div>
 
-      <div class="mdDts bdUp ltl">
-        <div class="lmts"> 
-          <div class="nfrmtv lft">
-            <h4>¿C&Oacute;MO PODEMOS AYUDARTE?</h4>
-            <h5>Soluciones a tu medida disponible en todo momento</h5>
-            <p>Acercamos con ayuda de la tecnología, una solución que suma varias funcionalidades para personas y empresas que en su vida cotidiana pueden necesitar algún tipo de documento legal.
-            </p>
-            
-          </div>
-          <div class="sqr">
-            <ul>
-              <li>
-                <div class="lbrry">
-                  <h6>Contratos</h6>
-                  <p>Desarrolle Contratos de acuerdo a sus necesidades</p>
+      <div class="mdBnr srvcs">
+        <div class="lmts">
+          <div class="flex-container">
+            <div class="caption-piramide">
+              <div class="mdDts bdUp ltl">
+                <div class="lmts"> 
+                  <div class="nfrmtv lft texto-piramide">
+                    <h4>¿C&Oacute;MO PODEMOS AYUDARTE?</h4>
+                    <h5>Soluciones a tu medida disponible en todo momento</h5>
+                    <p>Con nuestra plataforma obtendrás:
+                    </p>
+                  </div>
                 </div>
-              </li>
-              <li>
-                <div class="dwnld">
-                  <h6>Firma</h6>
-                  <p>Firmae documentos legales en cualquier lugar donde se encuentre</p>
-                </div>
-              </li>
-              <li>
-                <div class="dtn">
-                  <h6>Gestión</h6>
-                  <p>Digitalice y gestione sus documentos y procesos legales como empresa</p>
-                </div>
-              </li>
-              <li>
-                <div class="shr">
-                  <h6>Certeza</h6>
-                  <p>Brinde agilidad y certeza jurídica a su empresa</p>
-                </div>
-              </li>
-            </ul>
+              </div>
+            </div>
+            <div class="caption-piramide flex-item">
+              <video width="100%" height="100%" autoplay="" loop="">
+                <source src="./media/piramide.mp4"  type="video/mp4">
+                <source src="./media/piramide.ogg"  type="video/ogg">
+                <source src="./media/piramide.webm"  type="video/webm">
+              </video>
+            </div>
           </div>
         </div>
       </div>
 
+      <!-- Seccion anterior
 
       <div class="mdDts">
         <div class="lmts"> 
@@ -88,6 +84,22 @@ $register = false;
         </div>
       </div>
 
+    -->
+
+      <div class="mdDts">
+        <div class="lmts"> 
+          <div class="thumb" >
+            <img src="./imgs/planes_blue.svg" alt=""/>
+            <img src="./imgs/planes_white.svg" alt=""/>
+          </div>
+          <div class="nfrmtv smH">
+            <h5>Paga únicamente por lo que necesitas</h5>
+            <p>1.- Elige una Suscripción<br>
+              2.- Elige un paquete que se adecue a tus necesidades</p>
+            <button class="btn">CONOCER M&Aacute;S</button>
+          </div>
+        </div>
+      </div>
       
       <div class="mdSlg">
         <div class="lmts"> 

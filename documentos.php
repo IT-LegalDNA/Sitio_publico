@@ -20,12 +20,8 @@ $register = false;
       <div class="mdBnr dcs">
         <div class="lmts">  
           <div class="caption">
-            <h1>Conoce todos los documentos que tenemos en nuestro catálogo disponibles para ti</h1>
-            <p class="intro">Acercamos con ayuda de la tecnología, una solución que suma varias funcionalidades para personas y empresas que en su vida cotidiana pueden necesitar algún tipo de documento legal.
-            <br/><br/>
-            También ofrecemos en paralelo asesorías legales a través de abogados certificados que pueden apoyarlo simplificando términos y procesos. 
-            <br/>
-            ¡El tema legal nunca había sido tan fácil de entender!</p>
+            <h1>¿Para qué sirve?</h1>
+            <p class="intro">Podrás crear contratos a tu medida que te ayudarán a darle respaldo legal a  todas tus actividades, ya sea que tengas un negocio o una empresa podrás crear de contratos  en función de tus necesidades.</p>
           </div>
         </div>
         <div class="mdDch">
