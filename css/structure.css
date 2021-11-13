@@ -135,7 +135,12 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdBnr{color:var( --text-one )}
 .mdBnr{min-height: 750px;}
 .mdBnr:after{content: "";position: absolute;bottom: 0px;left: 0%;z-index: 2;background: transparent url('../imgs/mdhdr_shadow.svg') right -10px repeat-x;background-size: auto 60px;width: 100%;height: 90px;z-index: 1;}
+
+/* 
 .mdBnr:before{content: "";position: absolute;bottom: 0px;left: -45%;background: transparent url('../imgs/bnnr_home_hdr_bg.svg') right 0px no-repeat;background-size: auto 75%;width: 100%;height: 100%;z-index: -1;}
+*/
+
+
 .mdBnr.srvcs:before{top: -60px;left: 0%;background: transparent url('../imgs/bnnr_srvcs_hdr_bg.svg') center 0px no-repeat;background-size: auto 95%;bottom: initial;}
 
 .mdBnr.bf2021{
@@ -753,6 +758,26 @@ transition: all ease .15s;
 	width: 100% !important;
 }
 
+.banner_fin{
+	padding-top: 30px; 
+}
+
+.prfl .directivo{
+	font-size: 1.25rem !important;
+	color:#4a5fcc;
+}
+
+.nfrmtv .opcion_pago{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #4a5fcc;
+}
+
+.pstItm .crdPst span{
+	color: #4a5fcc;
+}
+
+
 @media all and (max-width: 800px) {
   .flex-container {
     justify-content: space-around;
@@ -764,21 +789,96 @@ transition: all ease .15s;
 
   .mdDts{
   	padding-bottom: 0;
-  }
+  	}
+
+  	.btn{
+  		max-width: 99px;
+  		max-height: 30px;
+  		font-size: .9rem;
+  	}
+
+  	a.btn{
+  		padding: 10px;
+  	}
+
+  	.banner_fin{
+  		max-width: 100%;
+  		max-height: 100%;
+  	}
+
+  	.mdBnr h1{
+  		font-size: 3rem;
+  		line-height: 3.5rem;
+  	}
+
+  	.mdSlg h2{
+  		font-size: 2.5rem;
+  		line-height: 2.9rem;
+  	}
+
+  	.ltms h2{
+  		font-size: 2.5rem;
+  		line-height: 2.9rem;
+  	}
+
+  	.mdSlg{
+  		padding-top: 30px;
+  	}
+
+  	.ltms{
+  		padding-top: 30px;
+  	}
+
+  	.mdDts .nfrmtv{
+  		padding-top: 0;
+  	}
+
+  	.nc{
+  		background: transparent url('../imgs/logo_nc.png') 0px 2px no-repeat;background-size: 40px auto;min-height:50px;margin: 15px 0px 0px 0px !important;
+  	}
 }
 
 @media all and (max-width: 500px) {
   .flex-container {
     flex-direction: column;
-  }
+  	}
+
   .caption-hero .caption-anima{
   	width: 500px;
 	}
 
 	.mdDts{
-  	padding-bottom: 0;
-  }
+  		padding-bottom: 0;
+  	}
+
+  	.banner_fin{
+  		max-width: 90%;
+  		max-height: 90%;
+  		padding: 30px 0 90px 0;
+  	}
+
+  	.flex-container{
+  		padding-bottom: 80px;
+  	}
+
+  	.caption-hero{
+  		padding-top: 0;
+  	}
+
+  	.versus{
+		width: 100%;
+		height: 100%;
+  	}
+
+  	.mdDts .thumb{
+  		padding-bottom: 40px;
+  	}
+
+  	.mdBnr.srvcs{
+  		padding-bottom: 80px;
+  	}
 }
+
 
 /* Termina Hero section con animacion*/
 
