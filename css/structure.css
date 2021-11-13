@@ -135,7 +135,12 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdBnr{color:var( --text-one )}
 .mdBnr{min-height: 750px;}
 .mdBnr:after{content: "";position: absolute;bottom: 0px;left: 0%;z-index: 2;background: transparent url('../imgs/mdhdr_shadow.svg') right -10px repeat-x;background-size: auto 60px;width: 100%;height: 90px;z-index: 1;}
+
+/* 
 .mdBnr:before{content: "";position: absolute;bottom: 0px;left: -45%;background: transparent url('../imgs/bnnr_home_hdr_bg.svg') right 0px no-repeat;background-size: auto 75%;width: 100%;height: 100%;z-index: -1;}
+*/
+
+
 .mdBnr.srvcs:before{top: -60px;left: 0%;background: transparent url('../imgs/bnnr_srvcs_hdr_bg.svg') center 0px no-repeat;background-size: auto 95%;bottom: initial;}
 
 .mdBnr.bf2021{
@@ -146,8 +151,7 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdBnr.bf2021:after{content:none;}
 .mdBnr.bf2021 h1, .mdBnr.bf2021 p.intro{color:#fff;}
 .mdBnr.bf2021 .btn{background:#fff;color:#006195}
-.mdBnr.bf2021 .lmts:after{content:"";position: absolute;top: 120px;right: -40px;width: 550px;height: 550px;background:transparent url('../imgs/promo-02.svg')center center no-repeat;background-size:130%;}
-.mdBnr.bf2021 .lmts:before{content:"¡Aprovecha del 10 al 16 de Noviembre nuestra promoción por lanzamiento!";position: absolute;bottom: -110px;left:0%;width: 55%;height: 90px;background: transparent url('../imgs/logoBF2021-03.svg')40px center no-repeat;background-size: 70px auto;font-size: 18px; font-family: 'Roboto-Medium', Arial, Helvetica, sans-serif;padding: 20px 0px 0px 120px;color:#fff;box-sizing: border-box;border-radius:10px;}
+.mdBnr.bf2021 .lmts:after{content:"";position: absolute;top: 120px;right: -40px;width: 500px;height: 500px;background:transparent url('../imgs/promo-03.svg')center center no-repeat;background-size:130%;}
 .dcs .mdBnr{color:var( --text-one );background: transparent url('../imgs/bg_banner_dcs.png')right 69px no-repeat;background-size: 41% auto;}
 .dcs .mdBnr:after{content:""; position: absolute;top:69px;left:0px;width:100%;min-height:550px;background: transparent url('../imgs/bg_banner_dcs_hdrover.png')right 69px no-repeat;background-size: 100% auto;}
 .dcs .mdBnr{min-height: 50px;padding: 69px 0px 0px 0px;}
@@ -200,7 +204,7 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdSlg h2{text-align: center;padding: 0px 0% 40px 0%;font-size:2.8rem;font-family: 'Roboto-Bold', Arial, Helvetica, sans-serif;}
 .mdSlg h2 span{font-size: 1.2rem;font-family: 'Roboto-Medium', Arial, Helvetica, sans-serif;color:var(--text-labels);text-transform:uppercase;}
 .mdSlg p{width: 70%; min-width: 300px;text-align: center; float: none;display: block;padding:35px 0px 25px 0px;margin: 0px 15% 0px 15%;color:var(--text-light);font-size:1rem;}
-.mdSlg h2:after{content:"";position: absolute;bottom:10px;left:50%;width:80px;margin:0px 0px 0px -40px;height:2px;background:#8F11AC}
+.mdSlg h2:after{content:"";position: absolute;bottom:10px;left:50%;width:80px;margin:0px 0px 0px -40px;height:2px;background:#4a5fcc}
 .mdSlg h2.dntBrdr:after{content:none;}
 /*Aling Modules*/
 .bdDwn:after{content:"";position:absolute;width:100%;height:300%;top:-80px;left:0px;z-index: -1;background: transparent url('../imgs/bg_body_A.svg') top left no-repeat;background-size:cover;opacity:0.8;}
@@ -221,8 +225,8 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdSttcs li.notes,.mdSttcs li.companies,.mdSttcs li.settings,.mdSttcs li.users{background-size:65px 65px;}
 
 .mdDts{padding: 80px 0px 100px 0px;}
-.mdDts .thumb{width:50%;float: left;}
-.mdDts .thumb img{width:90%;float: right; padding: 0px 5% 0px 5%;}
+.mdDts .thumb{width:50%;float: right;}
+.mdDts .thumb img{width:50%;float: right; padding: 0px 5% 0px 5%;}
 .mdDts .nfrmtv{width:50%;padding: 80px 8% 0px 8%;float:right;}
 .mdDts .nfrmtv.lft{float: left;padding:30px 5% 0px 5%;}
 .mdDts .nfrmtv.smH{padding:0px 6% 0px 6%;}
@@ -340,7 +344,9 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .lnk{cursor: pointer;}
 .lnk.face{background: transparent url('../imgs/facebook-logo.svg')center center no-repeat;}
 .lnk.Tweet{background: transparent url('../imgs/twitter-social-logotype.svg')center center no-repeat;}
-.lnk.face, .lnk.Tweet{background-size:30px auto;width:35px;height: 35px;display: inline-block;}
+.lnk.linkedin{background: transparent url('../imgs/linkedin-logo.svg')center center no-repeat;}
+.lnk.instagram{background: transparent url('../imgs/instagram-logo.svg')center center no-repeat;}
+.lnk.face, .lnk.Tweet, .lnk.linkedin, .lnk.instagram{background-size:30px auto;width:35px;height: 35px;display: inline-block;}
 
 .mdFtr{text-align: center;background:var(--footer-color) url('../imgs/bg_footer.svg') center top no-repeat;background-size:80% auto;padding:50px 0px 20px 0px;}
 .mdFtr li.clmns{width:17%;color:var(--text-white);align-self: flex-start;font-family: 'Roboto-Medium', Arial, Helvetica, sans-serif;font-size:1.12rem;left:0px}
@@ -724,6 +730,161 @@ transition: all ease .15s;
 	
 
 }
+
+/* Hero section con animacion*/
+
+.flex-container{
+	display: flex;
+	flex-flow: row-wrap;
+	justify-content: space-around;
+}
+
+.caption-hero{
+	background: none;
+	top:90px;
+	padding: 120px 0 0 30px; 
+}
+
+.caption-anima{
+	top:90px;
+}
+
+.caption-piramide{
+	background: none;
+	width: 100%;
+}
+
+.texto-piramide{
+	width: 100% !important;
+}
+
+.banner_fin{
+	padding-top: 30px; 
+}
+
+.prfl .directivo{
+	font-size: 1.25rem !important;
+	color:#4a5fcc;
+}
+
+.nfrmtv .opcion_pago{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #4a5fcc;
+}
+
+.pstItm .crdPst span{
+	color: #4a5fcc;
+}
+
+
+@media all and (max-width: 800px) {
+  .flex-container {
+    justify-content: space-around;
+  }
+
+  .caption-hero .caption-anima{
+  	width: 800px;
+  }
+
+  .mdDts{
+  	padding-bottom: 0;
+  	}
+
+  	.btn{
+  		max-width: 99px;
+  		max-height: 30px;
+  		font-size: .9rem;
+  	}
+
+  	a.btn{
+  		padding: 10px;
+  	}
+
+  	.banner_fin{
+  		max-width: 100%;
+  		max-height: 100%;
+  	}
+
+  	.mdBnr h1{
+  		font-size: 3rem;
+  		line-height: 3.5rem;
+  	}
+
+  	.mdSlg h2{
+  		font-size: 2.5rem;
+  		line-height: 2.9rem;
+  	}
+
+  	.ltms h2{
+  		font-size: 2.5rem;
+  		line-height: 2.9rem;
+  	}
+
+  	.mdSlg{
+  		padding-top: 30px;
+  	}
+
+  	.ltms{
+  		padding-top: 30px;
+  	}
+
+  	.mdDts .nfrmtv{
+  		padding-top: 0;
+  	}
+
+  	.nc{
+  		background: transparent url('../imgs/logo_nc.png') 0px 2px no-repeat;background-size: 40px auto;min-height:50px;margin: 15px 0px 0px 0px !important;
+  	}
+}
+
+@media all and (max-width: 500px) {
+  .flex-container {
+    flex-direction: column;
+  	}
+
+  .caption-hero .caption-anima{
+  	width: 500px;
+	}
+
+	.mdDts{
+  		padding-bottom: 0;
+  	}
+
+  	.banner_fin{
+  		max-width: 90%;
+  		max-height: 90%;
+  		padding: 30px 0 90px 0;
+  	}
+
+  	.flex-container{
+  		padding-bottom: 80px;
+  	}
+
+  	.caption-hero{
+  		padding-top: 0;
+  	}
+
+  	.versus{
+		width: 100%;
+		height: 100%;
+  	}
+
+  	.mdDts .thumb{
+  		padding-bottom: 40px;
+  	}
+
+  	.mdBnr.srvcs{
+  		padding-bottom: 80px;
+  	}
+}
+
+
+/* Termina Hero section con animacion*/
+
+
+
+
 
 @media only screen and (min-width: 1px) and (max-width: 450px){
 	.nd_450{display: none;}

@@ -17,41 +17,61 @@ include('./_globals_includes.php');
       include('./modules/header.php');
     ?>
     <div class="container" >
+
+      <div class="mdBnr home sf2021">
+        <div class="lmts">
+          <div class="flex-container">
+              <div class="caption-hero">
+                <h1>Soluciones LegalTech a tu medida </h1>
+                <p class="intro">Somos una Startup Legaltech Mexicana, brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
+                <a class="btn" href="registro.php">CREAR CUENTA</a>
+                <img class="banner_fin" src="./imgs/banner_buen_fin_2021.svg" alt="">
+              </div>
+            <div class="caption-piramide flex-item">
+              <video width="100%" height="100%" autoplay="" loop="">
+                <source src="./media/Comp_1.mp4"  type="video/mp4">
+              </video>
+            </div>
+          </div>    
+        </div>
+      </div>
+
+      <!-- Banner Buen Fin 
+
       <div class="mdBnr home bf2021">
         <div class="lmts">  
           <div class="caption">
-            <h1>Soluciones LegalTech a tu medida </h1>
-            <p class="intro">Somos una Startup Legaltech Mexicana,  brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
+            <h1>Soluciones LegalTech a tu medida</h1>
+            <p class="intro">Somos una Startup Legaltech Mexicana, brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
             <a class="btn" href="registro.php">CREAR CUENTA</a>
           </div>
         </div>
       </div>
+  		-->
+
+
       <div class="mdSlg">
         <div class="lmts aCenter">  
-          <h2 class="dntBrdr">¡Se parte de la Revoluci&oacute;n Digital en el Sector Jur&iacute;dico!</h2>
+          <h2 class="dntBrdr">Se parte de la Transformaci&oacute;n Digital en el Sector Legal</h2>
           <button class="btn">CREAR</button>
         </div>
       </div>
 
-      <div class="mdSttcs">
-        <div class="lmts"> 
-          <ul>
-            <li class="notes">4500+<br/><label>Documentos creados</label></li>
-            <li class="companies">110+<br/><label>Empresas creadas</label></li>
-            <li class="settings">300+<br/><label>Opciones de edici&oacute;n</label></li>
-            <li class="users">4000+<br/><label>Usuarios en red</label></li>
-          </ul>
-        </div>
-      </div>
       <div class="mdDts bdDwn">
         <div class="lmts"> 
-          <div class="thumb" >
-            <img src="./imgs/thumb_who_we_are.svg" alt="Quienes somos"/>
+          <div class="thumb">
+            <video class="versus" width="75%" height="75%" controls>
+                <source src="./media/versus.mp4"  type="video/mp4">
+                <source src="./media/versus.webm"  type="video/webm">
+                <source src="./media/versus.ogg"  type="video/ogg">
+              </video>
           </div>
           <div class="nfrmtv">
-            <h4>¿Qu&eacute; es LegalTech?</h4>
-            <h5>Tecnología a tu servicio</h5>
-            <p>Nuestra Plataforma desarrolla documentos hechos a la medida de tus necesidades, esto es posible gracias al an&aacute;lisis de datos, gestión, digitalización de documentos legales, y habilitando el uso de la e.firma agilizando los procesos legales y brindando una mayor eficacia probatoria en ámbitos legales.
+            <h5>¿Qu&eacute; es LegalTech?</h5>
+            <p>El uso de la tecnolog&iacute;a aplicada a la prestaci&oacute;n de servicios legales que pueden ser estandarizables con la finalidad de aumentar la rentabilidad, reduciendo tiempos y costos.
+            </p>
+            <h4>¿Cómo migrar a un entorno digital ?</h4>
+            <p>Nuestra Plataforma ofrece un Sistema de Firma Electr&oacute;nica Avanzada con la cual obtendr&aacute;s mayor agilidad y eficacia probatoria ya que las partes podr&aacute;n firmar desde cualquier lugar en el que se encuentren y tendr&aacute;n los mismos efectos legales con mayor certeza jur&iacute;dica sobre dichos documentos.
             </p>
             <button class="btn">CONOCER M&Aacute;S</button>
           </div>
@@ -60,66 +80,15 @@ include('./_globals_includes.php');
 
       <div class="mdSlg">
         <div class="lmts"> 
-          <h2>Tipos de documentos<br/>¡Selecciona, configura y descarga!</h2>
-          <p>Contamos con varios documentos disponibles para cubrir tus necesidades.
-          <br/>Puedes consultar nuestro catálogo y crear los documentos que necesites, tales como Contratos, Cartas, Avisos entre otros.</p>
+          <h2>Digitaliza todos tus documentos legales<br/>Selecciona, configura y descarga</h2>
+          <p>Contamos con documentos para cubrir con tus necesidades.<br>
+            Puedes consultar nuestro cat&aacute;logo y crear los documentos que requieran tales como, Contratos, Convenios, Pagar&eacute;s y m&aacute;s 
+          </p>
           <div class="aCenter">
-            <a class="btn jstTxt" href="./documentos.php">Conocer catálogo completo</a>
+            <a class="btn jstTxt" href="./documentos.php">Conocer cat&aacute;logo completo</a>
           </div>
         </div>
       </div>
-
-      <div class="mdCrds">
-        <div class="lmts"> 
-          <ul>
-            <li class="crds">
-              <div class="itmcrd">
-                <div class="thumbs"></div>
-                <div class="ttl">Aviso de Privacidad</div>
-                <div class="bxCrd">
-                  <label class="ph">Jhon Doe<span class="clck">3 week ago</span></label>
-                  <p>
-                    En el contrato de prestación de servicios una persona Profesionista, se obliga ante otra persona, Cliente, a realizar uno o más servicios a cambio del pago de honorarios como contraprestación.
-                  </p>
-                  <label class="lks">5 likes</label>
-                  <label class="psts">8 Comentarios</label>
-                </div>
-              </div>
-            </li>
-            <li class="crds">
-              <div class="itmcrd">
-                <div class="thumbs"></div>
-                <div class="ttl">Prestación de servicios</div>
-                <div class="bxCrd">
-                  <label class="ph">Jhon Doe<span class="clck">3 week ago</span></label>
-                  <p>
-                    En el contrato de prestación de servicios una persona Profesionista, se obliga ante otra persona, Cliente, a realizar uno o más servicios a cambio del pago de honorarios como contraprestación.
-                  </p>
-                  <label class="lks">5 likes</label>
-                  <label class="psts">8 Comentarios</label>
-                </div>
-              </div>
-            </li>
-            <li class="crds">
-              <div class="itmcrd">
-                <div class="thumbs"></div>
-                <div class="ttl">Acuerdo de confidencialidad</div>
-                <div class="bxCrd">
-                  <label class="ph">Jhon Doe<span class="clck">3 week ago</span></label>
-                  <p>
-                    En el contrato de prestación de servicios una persona Profesionista, se obliga ante otra persona, Cliente, a realizar uno o más servicios a cambio del pago de honorarios como contraprestación.
-                  </p>
-                  <label class="lks">5 likes</label>
-                  <label class="psts">8 Comentarios</label>
-                </div>
-              </div>
-            </li>
-            
-          </ul>
-        </div>
-      </div>
-
-      
 
       <div class="mdSlg">
         <div class="lmts"> 
@@ -132,27 +101,29 @@ include('./_globals_includes.php');
           <ul>
             <li class="pstItm">
               <div class="crdPst">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <p><span>Legal DNA</span>, es una herramienta muy &uacute;til, sin duda ayud&oacute; a mejorar nuestros procesos ya que para nosotros es importante mantener la seguridad de la informaci&oacute;n.</p>
                 <div class="prfl">
-                  Alonso Raya
-                  <label>CEO, Company</label>
+                  <p class="directivo">3er espacio</p>
+                  <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
             </li>
             <li class="pstItm">
               <div class="crdPst">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                <div class="prfl">
-                  Alonso Raya
-                  <label>CEO, Company</label>
+                <p><span>Legal DNA</span> es una soluci&oacute;n, pr&aacute;ctica, innovadora y funcional que ayuda simplificar tu vida legal tomando como base las necesidades legales de hoy en d&iacute;a y cumpliendo con la normatividad actual; Optimiza tus recursos y te da accesibilidad en cualquier parte del mundo! Herramientas como estas no solo son un plus sino una necesidad a las actuales demandas del mercado y diferentes autoridades.</p>
+                <div class="prfl nc">
+                  <p class="directivo">C&N Consulting</p>
+                  <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
             </li>
           </ul>
+          <!--
           <div class="sldCtrl">
             <button class="btn rwrd">&nbsp;</button>
             <button class="btn fwrd">&nbsp;</button>
           </div>
+        -->
         </div>
       </div>
 

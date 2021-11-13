@@ -20,12 +20,8 @@ $register = false;
       <div class="mdBnr dcs">
         <div class="lmts">  
           <div class="caption">
-            <h1>Conoce todos los documentos que tenemos en nuestro catálogo disponibles para ti</h1>
-            <p class="intro">Acercamos con ayuda de la tecnología, una solución que suma varias funcionalidades para personas y empresas que en su vida cotidiana pueden necesitar algún tipo de documento legal.
-            <br/><br/>
-            También ofrecemos en paralelo asesorías legales a través de abogados certificados que pueden apoyarlo simplificando términos y procesos. 
-            <br/>
-            ¡El tema legal nunca había sido tan fácil de entender!</p>
+            <h1>¿Para qué sirve?</h1>
+            <p class="intro">Podrás crear contratos a tu medida que te ayudarán a darle respaldo legal a  todas tus actividades, ya sea que tengas un negocio o una empresa podrás crear de contratos  en función de tus necesidades.</p>
           </div>
         </div>
         <div class="mdDch">
@@ -161,27 +157,29 @@ $register = false;
           <ul>
             <li class="pstItm">
               <div class="crdPst">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <p><span>Legal DNA</span>, es una herramienta muy &uacute;til, sin duda ayud&oacute; a mejorar nuestros procesos ya que para nosotros es importante mantener la seguridad de la informaci&oacute;n.</p>
                 <div class="prfl">
-                  Alonso Raya
-                  <label>CEO, Company</label>
+                  <p class="directivo">3er espacio</p>
+                  <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
             </li>
             <li class="pstItm">
               <div class="crdPst">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                <div class="prfl">
-                  Alonso Raya
-                  <label>CEO, Company</label>
+                <p><span>Legal DNA</span> es una soluci&oacute;n, pr&aacute;ctica, innovadora y funcional que ayuda simplificar tu vida legal tomando como base las necesidades legales de hoy en d&iacute;a y cumpliendo con la normatividad actual; Optimiza tus recursos y te da accesibilidad en cualquier parte del mundo! Herramientas como estas no solo son un plus sino una necesidad a las actuales demandas del mercado y diferentes autoridades.</p>
+                <div class="prfl nc">
+                  <p class="directivo">C&N Consulting</p>
+                  <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
             </li>
           </ul>
+          <!--
           <div class="sldCtrl">
             <button class="btn rwrd">&nbsp;</button>
             <button class="btn fwrd">&nbsp;</button>
           </div>
+        -->
         </div>
       </div>
       
