@@ -28,8 +28,14 @@ include('./_globals_includes.php');
                 <img class="banner_fin" src="./imgs/banner_buen_fin_2021.svg" alt="">
               </div>
             <div class="caption-piramide flex-item">
-              <video width="90%" height="90%" autoplay="" loop="">
-                <source src="./media/Comp_1.mp4"  type="video/mp4">
+            <video autoplay poster="./media/bg_poster.jpg" id="bgvid" controlslist="nodownload" playsinline="" muted loop preload="auto">
+			<source src="./media/header.webm" type='video/webm; codecs="vp8, vorbis"'>
+			<source src="./media/header.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+			Tu navegador no soporta este componente.
+		</video>
+
+              <video width="90%" height="90%" autoplay loop  playsinline="" controlslist="nodownload" preload="auto">
+                <source src="./media/Comp_1.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
               </video>
             </div>
           </div>    
