@@ -752,6 +752,9 @@ transition: all ease .15s;
 .caption-piramide{
 	background: none;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .texto-piramide{
@@ -765,6 +768,7 @@ transition: all ease .15s;
 .prfl .directivo{
 	font-size: 1.25rem !important;
 	color:#4a5fcc;
+	margin-left: 45px;
 }
 
 .nfrmtv .opcion_pago{
@@ -776,6 +780,14 @@ transition: all ease .15s;
 .pstItm .crdPst span{
 	color: #4a5fcc;
 }
+
+.nc{
+	background: transparent url('../imgs/logo_nc.png') 0px 2px no-repeat !important;background-size: 40px auto;min-height:50px;margin: 15px 0px 0px 0px;
+  	}
+
+ .espacio{
+	background: transparent url('../imgs/logo_3er_espacio.png') 0px 2px no-repeat !important;background-size: 40px auto;min-height:50px;margin: 15px 0px 0px 0px;
+  	}
 
 
 @media all and (max-width: 800px) {
@@ -831,10 +843,6 @@ transition: all ease .15s;
 
   	.mdDts .nfrmtv{
   		padding-top: 0;
-  	}
-
-  	.nc{
-  		background: transparent url('../imgs/logo_nc.png') 0px 2px no-repeat;background-size: 40px auto;min-height:50px;margin: 15px 0px 0px 0px !important;
   	}
 }
 
