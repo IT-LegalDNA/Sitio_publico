@@ -752,6 +752,9 @@ transition: all ease .15s;
 .caption-piramide{
 	background: none;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .texto-piramide{
