@@ -28,7 +28,7 @@ include('./_globals_includes.php');
                 <img class="banner_fin" src="./imgs/banner_buen_fin_2021.svg" alt="">
               </div>
             <div class="caption-piramide flex-item">
-              <video width="100%" height="100%" autoplay="" loop="">
+              <video width="90%" height="90%" autoplay="" loop="">
                 <source src="./media/Comp_1.mp4"  type="video/mp4">
               </video>
             </div>
