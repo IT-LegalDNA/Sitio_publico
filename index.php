@@ -102,7 +102,7 @@ include('./_globals_includes.php');
             <li class="pstItm">
               <div class="crdPst">
                 <p><span>Legal DNA</span>, es una herramienta muy &uacute;til, sin duda ayud&oacute; a mejorar nuestros procesos ya que para nosotros es importante mantener la seguridad de la informaci&oacute;n.</p>
-                <div class="prfl">
+                <div class="prfl espacio">
                   <p class="directivo">3er espacio</p>
                   <!-- <label>CEO, Company</label> -->
                 </div>
