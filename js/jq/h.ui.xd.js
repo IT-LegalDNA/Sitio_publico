@@ -30,11 +30,13 @@
 					
 				}).on(o.a[0], o.e[1], function (e) {
 					$T = $(this);
-					e.preventDefault();
-					e.stopPropagation();
-					if (!$T.hasClass(o.c[17]) && !$.isEmptyObject($T.data())) {
-						o.o = $T.data();
-						t.act($T);
+					if(!$T.prop('href')){
+						e.preventDefault();
+						e.stopPropagation();
+						if (!$T.hasClass(o.c[17]) && !$.isEmptyObject($T.data())) {
+							o.o = $T.data();
+							t.act($T);
+						}
 					}
 				});
                 i.F();
