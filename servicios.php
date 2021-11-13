@@ -94,9 +94,10 @@ $register = false;
           </div>
           <div class="nfrmtv smH">
             <h5>Paga únicamente por lo que necesitas</h5>
-            <p>1.- Elige una Suscripción<br>
-              2.- Elige un paquete que se adecue a tus necesidades</p>
+            <p class="opcion_pago">1. Elige una Suscripción<br>
+              2. Elige un paquete que se adecue a tus necesidades</p>
             <button class="btn">CONOCER M&Aacute;S</button>
+            <img class="banner_fin" src="./imgs/banner_buen_fin_2021.svg" alt="">
           </div>
         </div>
       </div>
@@ -112,27 +113,29 @@ $register = false;
           <ul>
             <li class="pstItm">
               <div class="crdPst">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <p><span>Legal DNA</span>, es una herramienta muy &uacute;til, sin duda ayud&oacute; a mejorar nuestros procesos ya que para nosotros es importante mantener la seguridad de la informaci&oacute;n.</p>
                 <div class="prfl">
-                  Alonso Raya
-                  <label>CEO, Company</label>
+                  <p class="directivo">3er espacio</p>
+                  <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
             </li>
             <li class="pstItm">
               <div class="crdPst">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                <div class="prfl">
-                  Alonso Raya
-                  <label>CEO, Company</label>
+                <p><span>Legal DNA</span> es una soluci&oacute;n, pr&aacute;ctica, innovadora y funcional que ayuda simplificar tu vida legal tomando como base las necesidades legales de hoy en d&iacute;a y cumpliendo con la normatividad actual; Optimiza tus recursos y te da accesibilidad en cualquier parte del mundo! Herramientas como estas no solo son un plus sino una necesidad a las actuales demandas del mercado y diferentes autoridades.</p>
+                <div class="prfl nc">
+                  <p class="directivo">C&N Consulting</p>
+                  <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
             </li>
           </ul>
+          <!--
           <div class="sldCtrl">
             <button class="btn rwrd">&nbsp;</button>
             <button class="btn fwrd">&nbsp;</button>
           </div>
+        -->
         </div>
       </div>
 
