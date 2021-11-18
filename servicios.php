@@ -1,12 +1,12 @@
 <?php
-	include('./_globals_includes.php');
+  include('./_globals_includes.php');
 $register = false;
 ?>
 <!DOCTYPE html>
 <html lang="es" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Article">
 <head>
 <?php
-	include('./modules/head.php');
+  include('./modules/head.php');
 ?>
 <title>Legal DNA - Servicios</title>
   </head>
@@ -19,13 +19,13 @@ $register = false;
         <div class="lmts">
           <div class="flex-container">
             <div class="caption-hero">
-              <h1>Soluciones Legaltech para tu Empresa o Negocio</h1>
+              <h1>Soluciones LegalTech para tu Empresa o Negocio</h1>
               <p class="intro">Brinda Agilidad y mayor certeza Jur&iacute;dica a tu Empresa</p>
               <a class="btn" href="registro.php">CREAR CUENTA</a>
             </div>
             <div class="caption-anima flex-item">
               <video width="100%" height="100%" autoplay="" loop="">
-                <source src="./media/gente.mp4"  type="video/mp4">
+                <source src="./media/gente.mp4"  type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
                 <source src="./media/gente.ogg"  type="video/ogg">
                 <source src="./media/gente.webm"  type="video/webm">
               </video>
@@ -43,7 +43,7 @@ $register = false;
         <div class="lmts">
           <div class="flex-container">
             <div class="caption-piramide">
-              <div class="mdDts bdUp ltl">
+              <div class="mdDts bdUp ltl ajuste">
                 <div class="lmts"> 
                   <div class="nfrmtv lft texto-piramide">
                     <h4>¿C&Oacute;MO PODEMOS AYUDARTE?</h4>
