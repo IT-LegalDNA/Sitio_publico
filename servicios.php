@@ -56,7 +56,7 @@ $register = false;
             </div>
             <div class="caption-piramide flex-item">
               <video width="100%" height="100%" autoplay="" loop="">
-                <source src="./media/piramide.mp4"  type="video/mp4">
+                <source src="./media/piramide.mp4"  type="video/mp4" codecs="avc1.42E01E, mp4a.40.2>
                 <source src="./media/piramide.ogg"  type="video/ogg">
                 <source src="./media/piramide.webm"  type="video/webm">
               </video>
@@ -115,7 +115,7 @@ $register = false;
               <div class="crdPst">
                 <p><span>Legal DNA</span>, es una herramienta muy &uacute;til, sin duda ayud&oacute; a mejorar nuestros procesos ya que para nosotros es importante mantener la seguridad de la informaci&oacute;n.</p>
                 <div class="prfl espacio">
-                  <p class="directivo">3er espacio</p>
+                  <p class="directivo">3ER ESPACIO</p>
                   <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
