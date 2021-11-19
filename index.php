@@ -22,16 +22,16 @@ include('./_globals_includes.php');
         <div class="lmts">
           <div class="flex-container">
               <div class="caption-hero">
+                <img class="banner-home" src="./imgs/banner_lanzamiento_home.svg" alt="">
                 <h1>Soluciones LegalTech a tu medida </h1>
                 <p class="intro">Somos una Startup Legaltech Mexicana, brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
                 <a class="btn" href="registro.php">CREAR CUENTA</a>
-                <img class="banner_fin" src="./imgs/banner_buen_fin_2021.svg" alt="">
+                
               </div>
             <div class="caption-piramide flex-item">
               <video autoplay width="90%" height="90%" playsinline="" controlslist="nodownload" muted loop preload="auto">
                 <source src="./media/Comp_1.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
               </video>
-              
             </div>
           </div>    
         </div>
@@ -53,7 +53,7 @@ include('./_globals_includes.php');
 
       <div class="mdSlg">
         <div class="lmts aCenter">  
-          <h2 class="dntBrdr">Se parte de la Transformaci&oacute;n Digital en el Sector Legal</h2>
+          <h2 class="dntBrdr">Se parte de la Transformaci&oacute;n Digital en el sector legal</h2>
           <button class="btn">CREAR</button>
         </div>
       </div>
@@ -81,7 +81,7 @@ include('./_globals_includes.php');
 
       <div class="mdSlg">
         <div class="lmts"> 
-          <h2>Digitaliza todos tus documentos legales<br/>Selecciona, configura y descarga</h2>
+          <h2>Digitaliza todos tus documentos legales<br/>selecciona, configura y descarga</h2>
           <p>Contamos con documentos para cubrir con tus necesidades.<br>
             Puedes consultar nuestro cat&aacute;logo y crear los documentos que requieran tales como, Contratos, Convenios, Pagar&eacute;s y m&aacute;s 
           </p>
@@ -104,7 +104,7 @@ include('./_globals_includes.php');
               <div class="crdPst">
                 <p><span>Legal DNA</span>, es una herramienta muy &uacute;til, sin duda ayud&oacute; a mejorar nuestros procesos ya que para nosotros es importante mantener la seguridad de la informaci&oacute;n.</p>
                 <div class="prfl espacio">
-                  <p class="directivo">3er espacio</p>
+                  <p class="directivo">3er ESPACIO</p>
                   <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
@@ -113,7 +113,7 @@ include('./_globals_includes.php');
               <div class="crdPst">
                 <p><span>Legal DNA</span> es una soluci&oacute;n, pr&aacute;ctica, innovadora y funcional que ayuda simplificar tu vida legal tomando como base las necesidades legales de hoy en d&iacute;a y cumpliendo con la normatividad actual; Optimiza tus recursos y te da accesibilidad en cualquier parte del mundo! Herramientas como estas no solo son un plus sino una necesidad a las actuales demandas del mercado y diferentes autoridades.</p>
                 <div class="prfl nc">
-                  <p class="directivo">C&N Consulting</p>
+                  <p class="directivo">C&N CONSULTING</p>
                   <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
