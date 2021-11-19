@@ -1,12 +1,12 @@
 <?php
-  include('./_globals_includes.php');
+	include('./_globals_includes.php');
 $register = false;
 ?>
 <!DOCTYPE html>
 <html lang="es" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Article">
 <head>
 <?php
-  include('./modules/head.php');
+	include('./modules/head.php');
 ?>
 <title>Legal DNA - Servicios</title>
   </head>
@@ -19,13 +19,13 @@ $register = false;
         <div class="lmts">
           <div class="flex-container">
             <div class="caption-hero">
-              <h1>Soluciones LegalTech para tu Empresa o Negocio</h1>
+              <h1>Soluciones Legaltech para tu Empresa o Negocio</h1>
               <p class="intro">Brinda Agilidad y mayor certeza Jur&iacute;dica a tu Empresa</p>
               <a class="btn" href="registro.php">CREAR CUENTA</a>
             </div>
             <div class="caption-anima flex-item">
               <video width="100%" height="100%" autoplay="" loop="">
-                <source src="./media/gente.mp4"  type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+                <source src="./media/gente.mp4"  type="video/mp4">
                 <source src="./media/gente.ogg"  type="video/ogg">
                 <source src="./media/gente.webm"  type="video/webm">
               </video>
@@ -43,7 +43,7 @@ $register = false;
         <div class="lmts">
           <div class="flex-container">
             <div class="caption-piramide">
-              <div class="mdDts bdUp ltl ajuste">
+              <div class="mdDts bdUp ltl">
                 <div class="lmts"> 
                   <div class="nfrmtv lft texto-piramide">
                     <h4>¿C&Oacute;MO PODEMOS AYUDARTE?</h4>
@@ -56,7 +56,7 @@ $register = false;
             </div>
             <div class="caption-piramide flex-item">
               <video width="100%" height="100%" autoplay="" loop="">
-                <source src="./media/piramide.mp4"  type="video/mp4" codecs="avc1.42E01E, mp4a.40.2>
+                <source src="./media/piramide.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
                 <source src="./media/piramide.ogg"  type="video/ogg">
                 <source src="./media/piramide.webm"  type="video/webm">
               </video>
@@ -96,8 +96,7 @@ $register = false;
             <h5>Paga únicamente por lo que necesitas</h5>
             <p class="opcion_pago">1. Elige una Suscripción<br>
               2. Elige un paquete que se adecue a tus necesidades</p>
-            <button class="btn">CONOCER M&Aacute;S</button>
-            <img class="banner_fin" src="./imgs/banner_buen_fin_2021.svg" alt="">
+              <img src="./imgs/banner_lanzamiento_servicios.svg" alt="">
           </div>
         </div>
       </div>
@@ -115,7 +114,7 @@ $register = false;
               <div class="crdPst">
                 <p><span>Legal DNA</span>, es una herramienta muy &uacute;til, sin duda ayud&oacute; a mejorar nuestros procesos ya que para nosotros es importante mantener la seguridad de la informaci&oacute;n.</p>
                 <div class="prfl espacio">
-                  <p class="directivo">3ER ESPACIO</p>
+                  <p class="directivo">3er ESPACIO</p>
                   <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
@@ -124,7 +123,7 @@ $register = false;
               <div class="crdPst">
                 <p><span>Legal DNA</span> es una soluci&oacute;n, pr&aacute;ctica, innovadora y funcional que ayuda simplificar tu vida legal tomando como base las necesidades legales de hoy en d&iacute;a y cumpliendo con la normatividad actual; Optimiza tus recursos y te da accesibilidad en cualquier parte del mundo! Herramientas como estas no solo son un plus sino una necesidad a las actuales demandas del mercado y diferentes autoridades.</p>
                 <div class="prfl nc">
-                  <p class="directivo">C&N Consulting</p>
+                  <p class="directivo">C&N CONSULTING</p>
                   <!-- <label>CEO, Company</label> -->
                 </div>
               </div>
