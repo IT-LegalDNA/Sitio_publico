@@ -750,7 +750,7 @@ transition: all ease .15s;
 .caption-hero{
 	background: none;
 	top:90px;
-	padding: 120px 0 0 30px; 
+	padding: 0px 0 0 30px; 
 }
 
 .caption-anima{
@@ -796,6 +796,10 @@ transition: all ease .15s;
  .espacio{
 	background: transparent url('../imgs/logo_3er_espacio.png') 0px 2px no-repeat !important;background-size: 40px auto;min-height:50px;margin: 15px 0px 0px 0px;
   	}
+
+  .banner-home{
+  	width: 60%;
+  }
 
 
 @media all and (max-width: 800px) {
