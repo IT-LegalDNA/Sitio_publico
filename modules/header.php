@@ -23,7 +23,6 @@
 		<ul class="mdMn alRight">
 		    <li><a class="lnks smHd" href="<?php echo URLS_FOR_MENUS.'index.php'; ?>">HOME</a></li>
 			<li><a class="lnks smHd" href="<?php echo URLS_FOR_MENUS.'servicios.php'; ?>">SERVICIOS</a></li>
-			<li><a class="lnks smHd" href="<?php echo URLS_FOR_MENUS.'documentos.php'; ?>">DOCUMENTOS</a></li>
 			<li><a class="btn ol is" href="https://app.legaldna.com.mx/"><i class="material-icons">account_circle</i>INICIAR SESI&Oacute;N</a></li>
 		</ul>
 	</nav>
