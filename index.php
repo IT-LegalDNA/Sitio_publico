@@ -24,7 +24,7 @@ include('./_globals_includes.php');
               <div class="caption-hero">
                 <img class="banner-home" src="./imgs/banner_lanzamiento_home.svg" alt="">
                 <h1>Soluciones LegalTech a tu medida </h1>
-                <p class="intro">Somos una Startup Legaltech Mexicana, brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
+                <p class="intro">Somos una Startup LegalTech Mexicana, brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
                 <a class="btn" href="registro.php">CREAR CUENTA</a>
                 
               </div>
