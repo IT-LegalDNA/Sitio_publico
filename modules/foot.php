@@ -3,7 +3,6 @@
         <ul>
         <li class="clmns">Suscripci&oacute;n
             <form>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <div class="flds">
                 <label class="lbl">Correo electr&oacute;nico</label>
                 <input type="email" class="fld" maxlength="60" placeholder="Correo electrónico">
@@ -36,18 +35,21 @@
         </li>
         <li class="clmns">Contacto
             <ul class="ftrItms">
-            <li class="gps">&Aacute;msterdam 240, 4° Piso, Hip&oacute;dromo<br/>Cuauht&eacute;moc, 06100, M&eacute;xico D.F.</li>
-            <li class="mail">contacto@legaldna.com.mx</li>
-            <li class="phone">+52 56 3289 8052</li>
-            <li>
-                <a class="lnk face" href="https://www.facebook.com/LegalDNATech" target="_blank">&nbsp;</a>
-                <a class="lnk Tweet" href="https://twitter.com/dna_legal" target="_blank">&nbsp;</a>
-                <a class="lnk linkedin" href="https://www.linkedin.com/company/legaldna/" target="_blank">&nbsp;</a>
-                <a class="lnk instagram" href="https://www.instagram.com/legal.dna/" target="_blank">&nbsp;</a>
-            </li>
+                <li class="gps">&Aacute;msterdam 240, 4° Piso, Hip&oacute;dromo<br/>Cuauht&eacute;moc, 06100, M&eacute;xico D.F.</li>
+                <li class="mail">contacto@legaldna.com.mx</li>
+                <li class="phone">+52 56 3289 8052</li>
+                <li>
+                    <a class="lnk face" href="https://www.facebook.com/LegalDNATech" target="_blank">&nbsp;</a>
+                    <a class="lnk Tweet" href="https://twitter.com/dna_legal" target="_blank">&nbsp;</a>
+                    <a class="lnk linkedin" href="https://www.linkedin.com/company/legaldna/" target="_blank">&nbsp;</a>
+                    <a class="lnk instagram" href="https://www.instagram.com/legal.dna/" target="_blank">&nbsp;</a>
+                </li>
             </ul>
         </li>
+
+
+
         </ul>
-        <p class="laws">&copy; 2021 Copyright All reserved by Legal DNA.</p>
+        <p class="laws">&copy; 2020 copyright all right reserved by LegalADN - Desarrollado por <a href="https://digitalkeysolution.com" target="_blank">DigitalKey</a></p>
     </div>
     </div>
