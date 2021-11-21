@@ -245,6 +245,13 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdDts .sqr li div.dtn,
 .mdDts .sqr li div.shr{background-size:80px auto;}
 
+/* Alinear texto y piramide en seccion como podemos ayudarte */
+.ajuste{
+	padding-top: 0 !important;
+}
+
+
+
 /*.mdDts .nfrmtv h4{font-size: 1.2rem;font-family: 'Roboto-Medium', Arial, Helvetica, sans-serif;color:var(--text-labels);text-transform:uppercase;}
 .mdDts .nfrmtv h5{font-size:2.3rem;color:var(--text-one);font-family: 'Roboto-Bold', Arial, Helvetica, sans-serif;}
 .mdDts .nfrmtv p{color:var(--text-light);font-size:1rem;padding: 20px 0px 25px 0px;}
@@ -737,13 +744,13 @@ transition: all ease .15s;
 	display: flex;
 	flex-flow: row-wrap;
 	justify-content: space-around;
-	align-items: start;
+	align-items: flex-start;
 }
 
 .caption-hero{
 	background: none;
 	top:90px;
-	padding: 120px 0 0 30px; 
+	padding: 0px 0 0 30px; 
 }
 
 .caption-anima{
@@ -795,7 +802,7 @@ transition: all ease .15s;
   }
 
   .ayudarte{
-  	padding-top: 0!important;
+  	padding-top: 30px!important;
   }
 
 
@@ -853,6 +860,10 @@ transition: all ease .15s;
   	.mdDts .nfrmtv{
   		padding-top: 0;
   	}
+
+  	.mdBnr{
+  		min-height: 700px;
+  	}
 }
 
 @media all and (max-width: 500px) {
@@ -893,6 +904,14 @@ transition: all ease .15s;
 
   	.mdBnr.srvcs{
   		padding-bottom: 80px;
+  	}
+
+  	.lanzamiento-home{
+  		width: 100%
+  	}
+
+  	.lanzamiento{
+  		width: 100%
   	}
 }
 
