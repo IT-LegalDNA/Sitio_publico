@@ -29,7 +29,7 @@ include('./_globals_includes.php');
                 
               </div>
             <div class="caption-piramide flex-item">
-              <video autoplay width="85%" height="85%" playsinline="" controlslist="nodownload" muted loop preload="auto">
+              <video width="85%" height="85%" playsinline="" controlslist="nodownload" muted loop preload="auto" autoplay>
                 <source src="./media/Comp_1.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
               </video>
             </div>
@@ -54,7 +54,6 @@ include('./_globals_includes.php');
       <div class="mdSlg">
         <div class="lmts aCenter">  
           <h2 class="dntBrdr">Se parte de la Transformaci&oacute;n Digital en el sector legal</h2>
-          <button class="btn">CREAR</button>
         </div>
       </div>
 
@@ -74,7 +73,6 @@ include('./_globals_includes.php');
             <h4>¿Cómo migrar a un entorno digital ?</h4>
             <p>Nuestra plataforma ofrece un Sistema de Firma Electr&oacute;nica Avanzada con la cual obtendr&aacute;s mayor agilidad y eficacia probatoria ya que las partes podr&aacute;n firmar desde cualquier lugar en el que se encuentren y tendr&aacute;n los mismos efectos legales con mayor certeza jur&iacute;dica sobre dichos documentos.
             </p>
-            <button class="btn">CONOCER M&Aacute;S</button>
           </div>
         </div>
       </div>

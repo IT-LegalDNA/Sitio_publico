@@ -24,7 +24,7 @@ $register = false;
               <a class="btn" href="registro.php">CREAR CUENTA</a>
             </div>
             <div class="caption-anima flex-item">
-              <video width="100%" height="100%" autoplay="" loop="">
+              <video width="100%" height="100%" playsinline="" controlslist="nodownload" muted loop preload="auto" autoplay>
                 <source src="./media/gente.mp4"  type="video/mp4">
                 <source src="./media/gente.ogg"  type="video/ogg">
                 <source src="./media/gente.webm"  type="video/webm">
@@ -55,7 +55,7 @@ $register = false;
               </div>
             </div>
             <div class="caption-piramide flex-item">
-              <video width="100%" height="100%" autoplay="" loop="">
+              <video width="100%" height="100%" playsinline="" controlslist="nodownload" muted loop preload="auto" autoplay>
                 <source src="./media/piramide.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
                 <source src="./media/piramide.ogg"  type="video/ogg">
                 <source src="./media/piramide.webm"  type="video/webm">
