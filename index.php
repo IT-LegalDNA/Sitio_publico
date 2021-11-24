@@ -31,6 +31,8 @@ include('./_globals_includes.php');
             <div class="caption-piramide flex-item">
               <video width="85%" height="85%" playsinline="" controlslist="nodownload" muted loop preload="auto" autoplay>
                 <source src="./media/Comp_1.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="./media/Comp_1.ogg"  type='video/ogg'>
+                <source src="./media/Comp_1.webm"  type='video/webm'>
               </video>
             </div>
           </div>    
