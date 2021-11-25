@@ -26,13 +26,10 @@ include('./_globals_includes.php');
                 <h1>Soluciones LegalTech a tu medida </h1>
                 <p class="intro">Somos una Startup Legaltech mexicana, brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
                 <a class="btn" href="registro.php">CREAR CUENTA</a>
-                
               </div>
             <div class="caption-piramide flex-item">
               <video width="85%" height="85%" playsinline="" controlslist="nodownload" muted loop preload="auto" autoplay>
                 <source src="./media/Comp_1.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                <source src="./media/Comp_1.ogg"  type='video/ogg'>
-                <source src="./media/Comp_1.webm"  type='video/webm'>
               </video>
             </div>
           </div>    
