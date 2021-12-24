@@ -349,7 +349,7 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdQst ul li a{box-shadow: 2px 6px 10px 1px #ccc;float: left;display: block;width:100%;padding:20px 20px 20px 20px;z-index:2;border-radius: 12px;}
 
 
-.mdQst ul li h6{font-size: 1.33rem;color:var(--text-one);padding:0px 0px 10px 0px;margin:0px 0px 10px 0px}
+.mdQst ul li h6{font-size: 1.5rem;color:var(--text-one);padding:0px 0px 10px 0px;margin:0px 0px 10px 0px}
 /*
 .mdQst ul li h6:after{content:"";position: absolute;bottom:0px;left:0px;background:var(--second-color);width:95px;height: 2px;}
 */
@@ -879,6 +879,15 @@ transition: all ease .15s;
   	.mdBnr{
   		min-height: 700px;
   	}
+
+  	.mdQst ul li a{
+  		width: 75%;
+  	}
+
+  	.fndmnt{
+  		text-align: left;
+  		padding-left: 4%;
+  	}
 }
 
 @media all and (max-width: 500px) {
@@ -928,6 +937,19 @@ transition: all ease .15s;
   	.lanzamiento{
   		width: 100%
   	}
+
+  	.mdQst ul li a{
+  		width: 100%;
+  	}
+
+  	.tit-doc{
+  		font-size: 1.33rem !important;
+  		line-height: 24px !important;
+  	}
+
+  	.fndmnt{
+  		font-size: 1.6rem;
+  	}
 }
 
 
@@ -956,7 +978,7 @@ right: -25%;
 
 /* Estilos textos e iconos modal */
 .tit-doc{
-	font-size: 1.5rem !important;
+	font-size: 1.5rem;
 	color: #000 !important;
 	font-weight: bold;
 	line-height: 1.8rem;
@@ -965,72 +987,96 @@ right: -25%;
 
 .fecha{
 	background-image: url(../imgs/iconos_documentos-01.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .suprema{
 	background-image: url(../imgs/iconos_documentos-02.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:130px;
 }
 
 .sello{
 	background-image: url(../imgs/iconos_documentos-03.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .nom{
 	background-image: url(../imgs/iconos_documentos-04.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .psc{
 	background-image: url(../imgs/iconos_documentos-05.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:130px;
 }
 
 .economia{
 	background-image: url(../imgs/iconos_documentos-06.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .prodecon{
 	background-image: url(../imgs/iconos_documentos-07.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .normas{
 	background-image: url(../imgs/iconos_documentos-08.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .huella{
 	background-image: url(../imgs/iconos_documentos-09.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .sat{
 	background-image: url(../imgs/iconos_documentos-10.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .facultades{
 	background-image: url(../imgs/iconos_documentos-11.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
 
 .codigo{
 	background-image: url(../imgs/iconos_documentos-12.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
 }
