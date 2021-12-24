@@ -140,7 +140,6 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdBnr:before{content: "";position: absolute;bottom: 0px;left: -45%;background: transparent url('../imgs/bnnr_home_hdr_bg.svg') right 0px no-repeat;background-size: auto 75%;width: 100%;height: 100%;z-index: -1;}
 */
 
-
 .mdBnr.srvcs:before{top: -60px;left: 0%;background: transparent url('../imgs/bnnr_srvcs_hdr_bg.svg') center 0px no-repeat;background-size: auto 95%;bottom: initial;}
 
 .mdBnr.bf2021{
@@ -333,19 +332,34 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdFq{position: absolute;top:-500px;left: 55%;width:40%;}
 
 .mdQst{padding: 0px 0px 60px 0px;}
-.fndmnt{color:var(--second-color);width:50%;float:right;font-size:1rem;padding:0px 0% 0px 2%;}
+.fndmnt{color:var(--btn-primary);width:100%;text-align: center;font-size:2rem;font-weight:bold;padding:0px 0% 0px 2%;margin-bottom: 40px;}
 .mdQst ul{padding:60px 0px 70px 0px}
-.mdQst ul:before{content:"";position: absolute;width:9px;height: 9px;top:-15px;left:50%;margin:0px 0px 0px -6px;border:solid 2px var(--second-color);border-radius: 50%;}
-.mdQst ul:after{content:"";position: absolute;width:2px; height: calc(100% - 93px);top:-4px;left:50%;margin:0px 0px 0px -1px;background:var(--second-color)}
+.mdQst ul:before{content:"";position: absolute;width:9px;height: 9px;top:-15px;left:50%;margin:0px 0px 0px -6px;border:solid 2px var(--btn-primary);border-radius: 50%;}
+.mdQst ul:after{content:"";position: absolute;width:2px; height: calc(100% - 93px);top:-4px;left:50%;margin:0px 0px 0px -1px;background:var(--btn-primary)}
 .mdQst ul li{width:48%;padding: 10px 5% 20px 5%;margin: 0px 0% 10px 0%;}
-.mdQst ul li:after{content:"";position: absolute;top:50px;width:20%;background:var(--second-color);height:2px;z-index:0;}
+.mdQst ul li:after{content:"";position: absolute;top:50px;width:20%;background:var(--btn-primary);height:2px;z-index:0;}
 .mdQst ul li:nth-child(even):after{left:0%;}
 .mdQst ul li:nth-child(odd):after{right:0%;}
 .mdQst ul li:nth-child(even){top:65px;}
+
+/*
 .mdQst ul li a{box-shadow: 2px 6px 10px 1px #ccc;float: left;display: block;width:100%;padding:20px 20px 20px 20px;background:var(--text-white);z-index:2;}
+*/
+
+.mdQst ul li a{box-shadow: 2px 6px 10px 1px #ccc;float: left;display: block;width:100%;padding:20px 20px 20px 20px;z-index:2;border-radius: 12px;}
+
+
 .mdQst ul li h6{font-size: 1.33rem;color:var(--text-one);padding:0px 0px 10px 0px;margin:0px 0px 10px 0px}
+/*
 .mdQst ul li h6:after{content:"";position: absolute;bottom:0px;left:0px;background:var(--second-color);width:95px;height: 2px;}
+*/
+
+/*
 .mdQst ul li p{color:var(--text-notes);font-size: 1rem;padding:0px 0px 0px 15px;}
+*/
+
+.mdQst ul li p{color:#fff;font-size: 1rem;}
+
 .mdQst ul li i{position: absolute;right:22px;bottom:25px;color:var(--second-color);font-size:2rem;}
 
 .lnk{cursor: pointer;}
@@ -404,6 +418,7 @@ transform-origin: 0px 0px;}
 .btns{padding: 20px 0px 10px 0px;text-align: center;}
 a.btn{display: inline-block;padding: 10px 25px 0px 25px; ;}
 .btn{background:var(--btn-primary);border:none; border-radius:18px; padding: 5px 20px 5px 20px; text-align: center;color:var(--text-white);cursor:pointer;min-width:130px;min-height: 40px;font-family: 'Roboto-Medium', Arial, Helvetica, sans-serif;font-size:1rem;outline:none}
+
 .mdHdr .btn{background:var(--btn-light);font-size: 1rem;}
 .mdHdr .btn i{display: none;}
 .btn.ol,.mdHdr .btn.ol
@@ -937,4 +952,178 @@ right: -25%;
 }
 @media only screen and (min-width: 1px) and (max-width: 410px){
 
+}
+
+/* Estilos textos e iconos modal */
+.tit-doc{
+	font-size: 1.5rem !important;
+	color: #000 !important;
+	font-weight: bold;
+	line-height: 1.8rem;
+	padding-bottom: 0 !important;
+}
+
+.fecha{
+	background-image: url(../imgs/iconos_documentos-01.png);
+	width:472px;
+	height:106px;
+}
+
+.suprema{
+	background-image: url(../imgs/iconos_documentos-02.png);
+	width:472px;
+	height:130px;
+}
+
+.sello{
+	background-image: url(../imgs/iconos_documentos-03.png);
+	width:472px;
+	height:106px;
+}
+
+.nom{
+	background-image: url(../imgs/iconos_documentos-04.png);
+	width:472px;
+	height:106px;
+}
+
+.psc{
+	background-image: url(../imgs/iconos_documentos-05.png);
+	width:472px;
+	height:130px;
+}
+
+.economia{
+	background-image: url(../imgs/iconos_documentos-06.png);
+	width:472px;
+	height:106px;
+}
+
+.prodecon{
+	background-image: url(../imgs/iconos_documentos-07.png);
+	width:472px;
+	height:106px;
+}
+
+.normas{
+	background-image: url(../imgs/iconos_documentos-08.png);
+	width:472px;
+	height:106px;
+}
+
+.huella{
+	background-image: url(../imgs/iconos_documentos-09.png);
+	width:472px;
+	height:106px;
+}
+
+.sat{
+	background-image: url(../imgs/iconos_documentos-10.png);
+	width:472px;
+	height:106px;
+}
+
+.facultades{
+	background-image: url(../imgs/iconos_documentos-11.png);
+	width:472px;
+	height:106px;
+}
+
+.codigo{
+	background-image: url(../imgs/iconos_documentos-12.png);
+	width:472px;
+	height:106px;
+}
+
+.btndoc{
+	background-color: #5E84F7 !important;
+}
+
+
+/* Modal */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-image: linear-gradient(to right, #4581c2, #25449b);
+  margin: auto;
+  padding: 16px;
+  border: 1px solid #888;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  border-radius: 12px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header  {
+	padding: 16px; 
+}
+
+.modal-header h2{
+	font-size: 2rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+.modal-body {
+	padding: 0 16px;
+}
+
+.modal-body p {
+	font-size: 1.2rem !important;
+	margin-top: 20px;
+	font-family: "Roboto-Light"
+}
+
+.modal-footer {
+	height: 70px;
+	padding: 16px;
+}
+
+.modal-footer img {
+	float: right;
 }
