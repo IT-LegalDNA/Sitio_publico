@@ -586,6 +586,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	.mdQst ul li:nth-child(odd):after,.mdQst ul li:nth-child(even):after{left:0px;}
 	.mdQst ul li:nth-child(odd),.mdQst ul li:nth-child(even){top:0px;}
 	.mdQst ul li i {right: 12px;bottom: initial;top: 20px;}
+}
 
 }
 @media only screen and (min-width: 1px) and (max-width: 770px){
@@ -966,11 +967,13 @@ transition: all ease .15s;
 	.mdBnr.bf2021 .lmts::before {font-size: 14px;width: 40%;z-index: 3;}
 
 	.mdBnr.bf2021 .lmts::after {z-index: 2;
-top: 235px;
-width: 90%;
-height: 570px;
-right: -25%;
-}
+		top: 235px;
+		width: 90%;
+		height: 570px;
+		right: -25%;
+	}
+
+	
 }
 @media only screen and (min-width: 1px) and (max-width: 410px){
 
@@ -989,8 +992,6 @@ right: -25%;
 	background-image: url(../imgs/iconos_documentos-01.png);
 	background-size: contain;
 	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
 }
 
 .suprema{
@@ -1083,6 +1084,10 @@ right: -25%;
 
 .btndoc{
 	background-color: #5E84F7 !important;
+}
+
+.comercio{
+	margin-top: 80px !important;
 }
 
 
