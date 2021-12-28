@@ -22,13 +22,14 @@ include('./_globals_includes.php');
         <div class="lmts">
           <div class="flex-container">
               <div class="caption-hero">
-                <img class="banner-home lanzamiento-home" src="./imgs/banner_lanzamiento_home.svg" alt="">
+                <img class="banner-home" src="./imgs/banner_lanzamiento_home.svg" alt="">
                 <h1>Soluciones LegalTech a tu medida </h1>
-                <p class="intro">Somos una Startup Legaltech mexicana, brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
+                <p class="intro">Somos una Startup Legaltech Mexicana, brindamos una soluci&oacute;n tecnol&oacute;gica a tus necesidades legales</p>
                 <a class="btn" href="registro.php">CREAR CUENTA</a>
+                
               </div>
             <div class="caption-piramide flex-item">
-              <video width="85%" height="85%" playsinline="" controlslist="nodownload" muted loop preload="auto" autoplay>
+              <video autoplay width="90%" height="90%" playsinline="" controlslist="nodownload" muted loop preload="auto">
                 <source src="./media/Comp_1.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
               </video>
             </div>
@@ -53,6 +54,7 @@ include('./_globals_includes.php');
       <div class="mdSlg">
         <div class="lmts aCenter">  
           <h2 class="dntBrdr">Se parte de la Transformaci&oacute;n Digital en el sector legal</h2>
+          <button class="btn">CREAR</button>
         </div>
       </div>
 
@@ -70,21 +72,16 @@ include('./_globals_includes.php');
             <p>El uso de la tecnolog&iacute;a aplicada a la prestaci&oacute;n de servicios legales que pueden ser estandarizables con la finalidad de aumentar la rentabilidad, reduciendo tiempos y costos.
             </p>
             <h4>¿Cómo migrar a un entorno digital ?</h4>
-            <p>Nuestra plataforma ofrece un Sistema de Firma Electr&oacute;nica Avanzada con la cual obtendr&aacute;s mayor agilidad y eficacia probatoria ya que las partes podr&aacute;n firmar desde cualquier lugar en el que se encuentren y tendr&aacute;n los mismos efectos legales con mayor certeza jur&iacute;dica sobre dichos documentos.
+            <p>Nuestra Plataforma ofrece un Sistema de Firma Electr&oacute;nica Avanzada con la cual obtendr&aacute;s mayor agilidad y eficacia probatoria ya que las partes podr&aacute;n firmar desde cualquier lugar en el que se encuentren y tendr&aacute;n los mismos efectos legales con mayor certeza jur&iacute;dica sobre dichos documentos.
             </p>
+            <button class="btn">CONOCER M&Aacute;S</button>
           </div>
         </div>
       </div>
 
       <div class="mdSlg">
         <div class="lmts"> 
-          <h2>Digitaliza todos tus documentos legales<br/>selecciona, configura y descarga</h2>
-          <p>Contamos con documentos para cubrir con tus necesidades.<br>
-            Puedes consultar nuestro cat&aacute;logo y crear los documentos que requieran tales como, Contratos, Convenios, Pagar&eacute;s y m&aacute;s 
-          </p>
-          <div class="aCenter">
-            <a class="btn jstTxt" href="./documentos.php">Conocer cat&aacute;logo completo</a>
-          </div>
+          <h2>Aspectos legales</h2>
         </div>
       </div>
 
