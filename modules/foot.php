@@ -50,6 +50,6 @@
 
 
         </ul>
-        <p class="laws">&copy; 2020 copyright all right reserved by LegalADN - Desarrollado por <a href="https://digitalkeysolution.com" target="_blank">DigitalKey</a></p>
+        <p class="laws">&copy; 2021 Copyright All reserved by Legal DNA.</p>
     </div>
     </div>
