@@ -754,7 +754,7 @@ transition: all ease .15s;
 
 }
 
-/* Hero section con animacion*/
+/* Nuevos estilos agregados*/
 
 .flex-container{
 	display: flex;
@@ -821,6 +821,129 @@ transition: all ease .15s;
   	padding-top: 30px!important;
   }
 
+<<<<<<< Updated upstream
+=======
+  /* Estilos textos e iconos modal */
+.tit-doc{
+	font-size: 1.5rem;
+	color: #000 !important;
+	font-weight: bold;
+	line-height: 1.8rem;
+	padding-bottom: 0 !important;
+}
+
+.fecha{
+	background-image: url(../imgs/iconos_documentos-01.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+
+.suprema{
+	background-image: url(../imgs/iconos_documentos-02.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.sello{
+	background-image: url(../imgs/iconos_documentos-03.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.nom{
+	background-image: url(../imgs/iconos_documentos-04.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.psc{
+	background-image: url(../imgs/iconos_documentos-05.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.economia{
+	background-image: url(../imgs/iconos_documentos-06.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.prodecon{
+	background-image: url(../imgs/iconos_documentos-07.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.normas{
+	background-image: url(../imgs/iconos_documentos-08.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.huella{
+	background-image: url(../imgs/iconos_documentos-09.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.sat{
+	background-image: url(../imgs/iconos_documentos-10.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.facultades{
+	background-image: url(../imgs/iconos_documentos-11.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.codigo{
+	background-image: url(../imgs/iconos_documentos-12.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+	width:472px;
+	height:106px;
+}
+
+.btndoc{
+	background-color: #5E84F7 !important;
+}
+
+.comercio{
+	margin-top: 80px !important;
+}
+
+.tit-aspectos a{
+	font-size: 2.5rem !important;
+	color: var(--text-labels);
+	font-weight: bold;
+}
+/* Teminan nuevos estilos */
+
+
+/* Media query nuevos estilos */
+>>>>>>> Stashed changes
 
 @media all and (max-width: 800px) {
   .flex-container {
@@ -930,6 +1053,31 @@ transition: all ease .15s;
   	.mdBnr.srvcs{
   		padding-bottom: 80px;
   	}
+<<<<<<< Updated upstream
+
+  	.lanzamiento-home{
+  		width: 100%
+  	}
+
+  	.lanzamiento{
+  		width: 100%
+  	}
+
+  	.mdQst ul li a{
+  		width: 100%;
+  	}
+
+  	.tit-doc{
+  		font-size: 1.33rem !important;
+  		line-height: 24px !important;
+  	}
+
+  	.fndmnt{
+  		font-size: 1.6rem;
+  	}
+}
+=======
+>>>>>>> Stashed changes
 
   	.lanzamiento-home{
   		width: 100%
@@ -954,12 +1102,6 @@ transition: all ease .15s;
 }
 
 
-/* Termina Hero section con animacion*/
-
-
-
-
-
 @media only screen and (min-width: 1px) and (max-width: 450px){
 	.nd_450{display: none;}
 	.to100_450{width:100%;}
@@ -979,6 +1121,7 @@ transition: all ease .15s;
 
 }
 
+<<<<<<< Updated upstream
 /* Estilos textos e iconos modal */
 .tit-doc{
 	font-size: 1.5rem;
@@ -1089,6 +1232,9 @@ transition: all ease .15s;
 .comercio{
 	margin-top: 80px !important;
 }
+=======
+/* Terminan media query */
+>>>>>>> Stashed changes
 
 
 /* Modal */
