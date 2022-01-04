@@ -151,6 +151,14 @@
 
 
 						}
+
+					break;
+					case 'openMOdal':
+							O.next().show();
+					break;
+					case 'clsrmodal':
+							$(o.o.opt.tgt).hide();
+
 					break;
 				}
 			},
