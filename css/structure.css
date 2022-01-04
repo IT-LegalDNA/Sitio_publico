@@ -206,7 +206,7 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdSlg h2:after{content:"";position: absolute;bottom:10px;left:50%;width:80px;margin:0px 0px 0px -40px;height:2px;background:#4a5fcc}
 .mdSlg h2.dntBrdr:after{content:none;}
 /*Aling Modules*/
-.bdDwn:after{content:"";position:absolute;width:100%;height:300%;top:-80px;left:0px;z-index: -1;background: transparent url('../imgs/bg_body_A.svg') top left no-repeat;background-size:cover;opacity:0.8;}
+.bdDwn:after{content:"";position:absolute;width:100%;height:200%;top:-80px;left:0px;z-index: -1;background: transparent url('../imgs/bg_body_A.svg') top left no-repeat;background-size:cover;opacity:0.8;}
 .mdCrds.bdDwn:after{top:150px;height:150%;}
 .bdUp:after{content:"";position:absolute;width:100%;height:250%;top:-55%;left:0px;z-index: -1;background: transparent url('../imgs/bg_body_B.svg') top right no-repeat;background-size:cover;opacity:0.8;}
 .bdUp.ltl:after{top:-6%;}
@@ -821,9 +821,8 @@ transition: all ease .15s;
   	padding-top: 30px!important;
   }
 
-<<<<<<< Updated upstream
-=======
-  /* Estilos textos e iconos modal */
+
+/* Estilos textos e iconos modal */
 .tit-doc{
 	font-size: 1.5rem;
 	color: #000 !important;
@@ -840,7 +839,6 @@ transition: all ease .15s;
 
 .suprema{
 	background-image: url(../imgs/iconos_documentos-02.png);
-	background-size: contain;
 	background-repeat: no-repeat; 
 	width:472px;
 	height:106px;
@@ -939,11 +937,18 @@ transition: all ease .15s;
 	color: var(--text-labels);
 	font-weight: bold;
 }
+
+.boton{
+	top: 7px !important;
+	right: 0 !important;
+}
+
+
+
 /* Teminan nuevos estilos */
 
 
-/* Media query nuevos estilos */
->>>>>>> Stashed changes
+
 
 @media all and (max-width: 800px) {
   .flex-container {
@@ -1053,14 +1058,13 @@ transition: all ease .15s;
   	.mdBnr.srvcs{
   		padding-bottom: 80px;
   	}
-<<<<<<< Updated upstream
 
   	.lanzamiento-home{
-  		width: 100%
+  		width: 100%;
   	}
 
   	.lanzamiento{
-  		width: 100%
+  		width: 100%;
   	}
 
   	.mdQst ul li a{
@@ -1076,30 +1080,7 @@ transition: all ease .15s;
   		font-size: 1.6rem;
   	}
 }
-=======
->>>>>>> Stashed changes
 
-  	.lanzamiento-home{
-  		width: 100%
-  	}
-
-  	.lanzamiento{
-  		width: 100%
-  	}
-
-  	.mdQst ul li a{
-  		width: 100%;
-  	}
-
-  	.tit-doc{
-  		font-size: 1.33rem !important;
-  		line-height: 24px !important;
-  	}
-
-  	.fndmnt{
-  		font-size: 1.6rem;
-  	}
-}
 
 
 @media only screen and (min-width: 1px) and (max-width: 450px){
@@ -1121,120 +1102,7 @@ transition: all ease .15s;
 
 }
 
-<<<<<<< Updated upstream
-/* Estilos textos e iconos modal */
-.tit-doc{
-	font-size: 1.5rem;
-	color: #000 !important;
-	font-weight: bold;
-	line-height: 1.8rem;
-	padding-bottom: 0 !important;
-}
 
-.fecha{
-	background-image: url(../imgs/iconos_documentos-01.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-}
-
-.suprema{
-	background-image: url(../imgs/iconos_documentos-02.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:130px;
-}
-
-.sello{
-	background-image: url(../imgs/iconos_documentos-03.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.nom{
-	background-image: url(../imgs/iconos_documentos-04.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.psc{
-	background-image: url(../imgs/iconos_documentos-05.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:130px;
-}
-
-.economia{
-	background-image: url(../imgs/iconos_documentos-06.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.prodecon{
-	background-image: url(../imgs/iconos_documentos-07.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.normas{
-	background-image: url(../imgs/iconos_documentos-08.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.huella{
-	background-image: url(../imgs/iconos_documentos-09.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.sat{
-	background-image: url(../imgs/iconos_documentos-10.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.facultades{
-	background-image: url(../imgs/iconos_documentos-11.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.codigo{
-	background-image: url(../imgs/iconos_documentos-12.png);
-	background-size: contain;
-	background-repeat: no-repeat; 
-	width:472px;
-	height:106px;
-}
-
-.btndoc{
-	background-color: #5E84F7 !important;
-}
-
-.comercio{
-	margin-top: 80px !important;
-}
-=======
-/* Terminan media query */
->>>>>>> Stashed changes
 
 
 /* Modal */
