@@ -926,6 +926,10 @@ transition: all ease .15s;
 
 .btndoc{
 	background-color: #5E84F7 !important;
+	min-width: 90px !important;
+	min-height: 30px !important;
+	padding: 5px 10px !important;
+	font-size: .8rem !important;
 }
 
 .comercio{
@@ -933,7 +937,7 @@ transition: all ease .15s;
 }
 
 .tit-aspectos a{
-	font-size: 2.5rem !important;
+	font-size: 2rem !important;
 	color: var(--text-labels);
 	font-weight: bold;
 }
