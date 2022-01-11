@@ -88,7 +88,7 @@ $register = false;
                             <h2>Constancia de conservación</h2>
                           </div>
                           <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet facilisis nibh. In feugiat arcu mauris, at cursus ante sodales vel. Nam gravida lobortis leo vel hendrerit. Mauris leo velit, vehicula ut sapien vel, accumsan porta ante. Quisque pulvinar efficitur lorem. Pellentesque nec ipsum condimentum, ultricies dui eget, facilisis velit. Aliquam enim nunc, viverra eu imperdiet at, finibus sed lorem. Sed condimentum eros nec odio suscipit vestibulum. Sed faucibus est nec nulla imperdiet interdum. Cras dignissim hendrerit rutrum. Aenean dapibus ultrices ultrices. Morbi eu venenatis mi. Integer porta scelerisque arcu ultricies elementum.</p>
+                            <p><strong>Constancias de Conservación de Mensajes de Datos ¿Para qué sirve?</strong> Son certificados electrónicos o sellos digitales emitidos por un <strong>PSC para</strong> acreditar ante cualquier tercero o autoridad que los documentos electrónicos se han conservados íntegros e inalterables desde el momento de su generación, cumpliendo con el proceso establecido por la Norma Oficial Mexicana NOM-151.</p>
                           </div>
                           <div class="modal-footer">
                             <img src="./imgs/logo.png" width="68" height="49" alt="">
@@ -135,7 +135,6 @@ $register = false;
                           </div>
                           <div class="modal-body">
                             <p><strong>PSCs</strong> o un prestador de servicios de certificación, Empresa privada, Institución pública acreditada ante SE la cual está facultada para expedir certificados digitales y fungir en calidad de tercero legalmente autorizado conforme a lo que se establezca en la NOM 151</p>
-                            <p><strong>Constancias de Conservación de Mensajes de Datos ¿Para qué sirve?</strong> Son certificados electrónicos o sellos digitales emitidos por un <strong>PSC para</strong> acreditar ante cualquier tercero o autoridad que los documentos electrónicos se han conservados íntegros e inalterables desde el momento de su generación, cumpliendo con el proceso establecido por la Norma Oficial Mexicana NOM-151.</p>
                           </div>
                           <div class="modal-footer">
                             <img src="./imgs/logo.png" width="68" height="49" alt="">
