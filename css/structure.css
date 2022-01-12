@@ -203,6 +203,9 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdSlg h2{text-align: center;padding: 0px 0% 40px 0%;font-size:2.8rem;font-family: 'Roboto-Bold', Arial, Helvetica, sans-serif;}
 .mdSlg h2 span{font-size: 1.2rem;font-family: 'Roboto-Medium', Arial, Helvetica, sans-serif;color:var(--text-labels);text-transform:uppercase;}
 .mdSlg p{width: 70%; min-width: 300px;text-align: center; float: none;display: block;padding:35px 0px 25px 0px;margin: 0px 15% 0px 15%;color:var(--text-light);font-size:1rem;}
+
+.mdSlg .tex{font-size: 1.5rem !important; font-weight: bold; color:var(--btn-primary) !important;}
+
 .mdSlg h2:after{content:"";position: absolute;bottom:10px;left:50%;width:80px;margin:0px 0px 0px -40px;height:2px;background:#4a5fcc}
 .mdSlg h2.dntBrdr:after{content:none;}
 /*Aling Modules*/
@@ -329,6 +332,9 @@ span{width:auto;display: inline-block; float: none; color:inherit; font-family: 
 .mdDcs .dcsTms > li a.ctv{background:transparent url('../imgs/icon_arrow_next_ctv.svg') left center no-repeat;background-size:18px auto;color:#8C0BAA;font-family: 'Roboto-Medium', Arial, Helvetica, sans-serif;}
 
 .mdFqs{padding: 60px 0px 0px 0px;}
+
+.mdFqs .sub{padding-top: 60px !important;}
+
 .mdFq{position: absolute;top:-500px;left: 55%;width:40%;}
 
 .mdQst{padding: 0px 0px 60px 0px;}
