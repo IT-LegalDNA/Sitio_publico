@@ -19,10 +19,17 @@ $register = false;
     <div class="container dcs" >
       <div>
         <div class="mdFqs">
-          <div class="mdSlg">
+          <div class="mdSlg sub">
             <div class="lmts"> 
+
+              <h2 class="dntBrdr">¿Cuales son los aspectos legales en México<br>sobre el uso de la firma electrónica?</h2>
+              <p class="tex">En México existe toda una regulación acerca de la adopción y uso de tecnologías que puedan aumentar la fortaleza jurídica de los documentos privados, a continuación te explicamos:</p>
+
+              <!--
               <h2><span>CONTRATO DE PRESTACIÓN DE SERVICIOS</span><br/>¿Dudas sobre este documento?<br/>Permítenos ayudarte a aclarar tus dudas</h2>
               <p>Contamos con varios documentos disponibles para cubrir tus necesidades. <br/>Puedes consultar nuestro catálogo y crear los documentos que necesites, tales como Contratos, Cartas, Avisos entre otros.</p>
+              -->
+
             </div>
           </div>
           <div class="mdQst">
@@ -216,7 +223,7 @@ $register = false;
                 </li>
                 <li class="fq">
                   <a class="lnk huella">
-                    <h6 class="tit-doc">FEA</h6>
+                    <h6 class="tit-doc">Firma Electrónica Avanzada</h6>
                     <button id="myBtn" class="btn btndoc" data-opt='{"t":"openMOdal"}'>CONOCER M&Aacute;S</button>
 
                     <!-- Modal -->
