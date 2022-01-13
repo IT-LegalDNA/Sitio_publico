@@ -12,25 +12,22 @@
         </li>
         <li class="clmns">Con&oacute;cenos
             <ul class="ftrItms">
-            <li class="ftrMn"><a>Sobre nosotros</a></li>
             <li class="ftrMn"><a>Aviso de Privacidad</a></li>
             <li class="ftrMn"><a>T&eacute;rminos y condiciones</a></li>
-            <li class="ftrMn"><a>Preguntas frecuentes</a></li>
-            <li class="ftrMn"><a>Pagos</a></li>
             </ul>
         </li>
-        <li class="clmns">Empresas
+        <li class="clmns">Ayuda
             <ul class="ftrItms">
-            <li class="ftrMn"><a>Plataforma</a></li>
-            <li class="ftrMn"><a>Documentos</a></li>
-            <li class="ftrMn"><a>Red Documental</a></li>
-            <li class="ftrMn"><a>Servicio Legal</a></li>
+            <li class="ftrMn"><a href="<?php echo URLS_FOR_MENUS.'aspectos.php'; ?>">Aspectos legales</a></li>
+            <li class="ftrMn"><a></a></li>
+            <li class="ftrMn"><a></a></li>
+            <li class="ftrMn"><a></a></li>
             </ul>
         </li>
-        <li class="clmns">Personas
+        <li class="clmns">
             <ul class="ftrItms">
-            <li class="ftrMn"><a>Asesor&iacute;as</a></li>
-            <li class="ftrMn"><a>Tutoriales</a></li>
+            <li class="ftrMn"><a></a></li>
+            <li class="ftrMn"><a></a></li>
             </ul>
         </li>
         <li class="clmns">Contacto
@@ -50,6 +47,6 @@
 
 
         </ul>
-        <p class="laws">&copy; 2021 Copyright All reserved by Legal DNA.</p>
+        <p class="laws">&copy; 2022 Copyright All reserved by Legal DNA.</p>
     </div>
     </div>
