@@ -95,7 +95,8 @@ $register = false;
                             <h2>Constancia de conservación</h2>
                           </div>
                           <div class="modal-body">
-                            <p><strong>Constancias de Conservación de Mensajes de Datos ¿Para qué sirve?</strong> Son certificados electrónicos o sellos digitales emitidos por un <strong>PSC para</strong> acreditar ante cualquier tercero o autoridad que los documentos electrónicos se han conservados íntegros e inalterables desde el momento de su generación, cumpliendo con el proceso establecido por la Norma Oficial Mexicana NOM-151.</p>
+                            <p><strong>Constancias de Conservación de Mensajes de Datos ¿Para qué sirve?</strong></p>
+                            <p>Son certificados electrónicos o sellos digitales emitidos por un <strong>PSC para</strong> acreditar ante cualquier tercero o autoridad que los documentos electrónicos se han conservados íntegros e inalterables desde el momento de su generación, cumpliendo con el proceso establecido por la Norma Oficial Mexicana NOM-151.</p>
                           </div>
                           <div class="modal-footer">
                             <img src="./imgs/logo.png" width="68" height="49" alt="">
@@ -130,7 +131,7 @@ $register = false;
                 </li>
                 <li class="fq">
                   <a class="lnk psc">
-                    <h6 class="tit-doc">PSC</h6>
+                    <h6 class="tit-doc">Prestador de servicios <br>de certificación</h6>
                     <button id="myBtn" class="btn btndoc" data-opt='{"t":"openMOdal"}'>CONOCER M&Aacute;S</button>
 
                     <!-- Modal -->
@@ -138,7 +139,7 @@ $register = false;
                         <div class="modal-content">
                           <button class="btn clsr" data-opt='{"t":"clsrmodal","tgt":".modal"}'></button>
                           <div class="modal-header">
-                            <h2>Prestador de servicios de certificacion</h2>
+                            <h2>Prestador de servicios de certificación</h2>
                           </div>
                           <div class="modal-body">
                             <p><strong>PSCs</strong> o un prestador de servicios de certificación, Empresa privada, Institución pública acreditada ante SE la cual está facultada para expedir certificados digitales y fungir en calidad de tercero legalmente autorizado conforme a lo que se establezca en la NOM 151</p>
@@ -153,7 +154,7 @@ $register = false;
                 </li>
                 <li class="fq">
                   <a class="lnk economia">
-                    <h6 class="tit-doc">Secretaria de Economia</h6>
+                    <h6 class="tit-doc">Secretaría de Economía</h6>
                     <button id="myBtn" class="btn btndoc" data-opt='{"t":"openMOdal"}'>CONOCER M&Aacute;S</button>
 
                     <!-- Modal -->
@@ -161,7 +162,7 @@ $register = false;
                         <div class="modal-content">
                           <button class="btn clsr" data-opt='{"t":"clsrmodal","tgt":".modal"}'></button>
                           <div class="modal-header">
-                            <h2>Secretaria de Economia</h2>
+                            <h2>Secretaría de Economía</h2>
                           </div>
                           <div class="modal-body">
                             <p>Es la encargada de diseñar, planear, ejecutar y coordinar las políticas públicas en materia de desarrollo económico como la NOM 151</p>
@@ -246,7 +247,7 @@ $register = false;
                 </li>
                 <li class="fq">
                   <a class="lnk sat">
-                    <h6 class="tit-doc">SAT</h6>
+                    <h6 class="tit-doc">Servicio de Administración <br>Tributaria</h6>
                     <button id="myBtn" class="btn btndoc" data-opt='{"t":"openMOdal"}'>CONOCER M&Aacute;S</button>
 
                     <!-- Modal -->
