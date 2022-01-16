@@ -871,7 +871,7 @@ transition: all ease .15s;
 	background-size: contain;
 	background-repeat: no-repeat; 
 	width:472px;
-	height:106px;
+	height:130px;
 }
 
 .economia{
@@ -911,7 +911,7 @@ transition: all ease .15s;
 	background-size: contain;
 	background-repeat: no-repeat; 
 	width:472px;
-	height:106px;
+	height:130px;
 }
 
 .facultades{
@@ -1027,6 +1027,17 @@ transition: all ease .15s;
   		text-align: left;
   		padding-left: 4%;
   	}
+}
+
+@media all and (max-width: 530px) {
+
+	.tit-doc{
+		font-size: 1.2rem !important;
+	}
+
+	.comercio{
+		margin-top: 0 !important;
+	}
 }
 
 @media all and (max-width: 500px) {
